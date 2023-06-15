@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1075258262524",
+    "project_id": "memo-app-7c8b2",
+    "storage_bucket": "memo-app-7c8b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075258262524:android:d7be11fb6a91d23f3e2879",
+        "android_client_info": {
+          "package_name": "br.com.usemobile.memorian.app.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075258262524-h8h1vpbs5ibif2an4l687kuv1sunk5af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpoHlqQc7_SgrWv0NsrZRIPeX4YzFee7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075258262524-h8h1vpbs5ibif2an4l687kuv1sunk5af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075258262524:android:accfcced3745b7fc3e2879",
+        "android_client_info": {
+          "package_name": "com.example.ci_cd_fastlane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075258262524-h8h1vpbs5ibif2an4l687kuv1sunk5af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpoHlqQc7_SgrWv0NsrZRIPeX4YzFee7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075258262524-h8h1vpbs5ibif2an4l687kuv1sunk5af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
