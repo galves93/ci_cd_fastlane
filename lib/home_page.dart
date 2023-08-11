@@ -1,3 +1,4 @@
+import 'package:ci_cd_fastlane/crypto_login.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -10,12 +11,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  final cryptolog = CryptoLogin();
 
   void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
+    cryptolog.encrypt();
   }
 
   @override
@@ -32,8 +31,8 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              'CRIPTOGRAFIA',
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
         ),
